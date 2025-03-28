@@ -10,6 +10,7 @@ dockitems_remove: []
 # - TV
 # - Podcasts
 # - 'App Store'
+#  - Safari
 dockitems_persist: []
 # - name: "Sublime Text"
 #   path: "/Applications/Sublime Text.app/"
@@ -22,60 +23,63 @@ sudoers_custom_config: ""
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/wimwenigerkind/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
-dotfiles_repo_version: master # Replace with your default branch
+dotfiles_repo_version: main
 dotfiles_files:
   - .zshrc
   - .gitignore
-  - .inputrc
   - .osx
-  - .vimrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
   - git
-  - gh
-  - go
   - gpg
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - nmap
-  - node
-  - nvm
-  - php
-  - pngpaste
-  - ssh-copy-id
-  - readline
-  - openssl
-  - pv
   - wget
-  - wrk
-  - zsh-history-substring-search
+  - tree
+  - curl
+  - tmux
+  - symfony-cli/tap/symfony-cli
+  - sqlite
+  - snappy
+  - rsync
+  - rclone
+  - nvtop
+  - node
+  - neovim
+  - iperf3
+  - htop
+  - git-filter-repo
+  - fzf
+  - fuzzy-find
+  - ollama
 
 homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
-  - docker
-  - dropbox
-  - firefox
+  - herd
   - google-chrome
-  - handbrake
-  - licecap
-  - sequel-ace
+  - docker
+  - onedrive
+  - discord
+  - gitkraken
+  - maccy
+  - whatsapp
+  - tailscale
   - slack
-  - sublime-text
-  - transmit
+  - rectangle
+  - balenaetcher
+  - visual-studio-code
+  - obs
+  - obsidian
+  - figma
+  - postman
+  - firefox
+  - raspberry-pi-imager
+  - warp
+  - chatgpt
+  - spotify
 
 # See `geerlingguy.mac.mas` role documentation for usage instructions.
 mas_installed_apps: []

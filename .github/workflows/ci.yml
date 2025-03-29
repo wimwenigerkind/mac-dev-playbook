@@ -38,6 +38,7 @@ jobs:
         os:
           - macos-15
           - macos-14
+          - macos-latest
 
     steps:
       - name: Check out the codebase.

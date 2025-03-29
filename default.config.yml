@@ -53,6 +53,7 @@ homebrew_installed_packages:
   - fzf
   - fuzzy-find
   - ollama
+  - gpg
 
 homebrew_taps: []
 

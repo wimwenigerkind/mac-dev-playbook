@@ -54,6 +54,7 @@ homebrew_installed_packages:
   - fuzzy-find
   - ollama
   - gpg
+  - ansible
 
 homebrew_taps: []
 

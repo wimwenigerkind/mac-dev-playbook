@@ -3,5 +3,4 @@
 .ansible
 *.retry
 roles*
-config.yml
 .idea
